@@ -35,7 +35,10 @@ public class Main {
         System.out.println("\nAmount= " + amount);
 
         //4.Create a program that takes a string as input, calculates its length, and then reverses the string using the StringBuilder class, finally printing both the length and reversed string.
+
+        //for some reason if I did not put this it will skip the input.nextLine
         input.nextLine();
+
         System.out.print("\nEnter your sentence: ");
         String stringInput = input.nextLine();
 
@@ -55,7 +58,10 @@ public class Main {
         System.out.println(sentence.substring(start,end));
 
         //6.Write a program that takes a sentence and a keyword as input, then check if the keyword is present in the sentence and prints the result.
+
+        //for some reason if I did not put this it will skip the input.nextLine
         input.nextLine();
+
         System.out.println("\nEnter your sentence: ");
         String sentenceEx6 = input.nextLine();
 
@@ -65,7 +71,10 @@ public class Main {
         System.out.println("is \""+keyword+"\" present in the sentence? " + sentenceEx6.contains(keyword));
 
         //7.Develop a program that takes a sentence and a word to replace as input, then replace all occurrences of the word with another word and prints the modified sentence.
+
+        //for some reason if I did not put this it will skip the input.nextLine
         input.nextLine();
+
         System.out.println("\nEnter a sentence: ");
         String sentenceEx7 = input.nextLine();
 
